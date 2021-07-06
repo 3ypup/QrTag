@@ -1,0 +1,7 @@
+{
+  "name": "grqame",
+  "private": true,
+  "dependencies": {
+    "jsqr": "^1.4.0"
+  }
+}
