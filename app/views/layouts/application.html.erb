@@ -9,8 +9,15 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
+
+ <link rel="stylesheet" href="/css/neon.css">
+ <link rel="stylesheet" href="/css/overlay.css">
+ <link rel="stylesheet" href="/css/buttons.css">
+  <link rel="stylesheet" href="/css/grid.css">
   <body>
     <script src="js/html5-qrcode.min.js"></script>
+
+
     
     <%= yield %>
 
@@ -18,6 +25,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
 
     <script src="js/qrreader.js"></script>
+    <script src="js/overlay.js"></script>
+
 
   </body>
 </html>
