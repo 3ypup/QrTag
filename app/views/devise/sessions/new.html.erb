@@ -1,0 +1,27 @@
+<h3 class = "neonText3">Log in</h3>
+
+<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+  <div class="field">
+    <label style="font-size: 3.0rem" class = "neonText3" for="user_email">Email</label><br/>
+    <input style="font-size: 3.0rem"   autofocus="autofocus" autocomplete="email" type="email" value="" name="user[email]" id="user_email">
+  </div>
+
+  <div class="field">
+    <label style="font-size: 3.0rem"   class = "neonText3" for="user_password">Password</label><br/>
+    <input style="font-size: 3.0rem" autocomplete="current-password" type="password" name="user[password]" id="user_password">
+  </div>
+
+  <% if devise_mapping.rememberable? %>
+    <div class="field">
+      
+      <label style="font-size: 3.0rem"  class = "neonText3" for="user_remember_me">Remember me</label>
+      <input style="width: 50px; height: 50px" type="checkbox" value="1" name="user[remember_me]" id="user_remember_me">
+    </div>
+  <% end %>
+
+  <div class="actions">
+   <button style="font-size: 3.0rem"  type="submit" value="Send Request"><h3>Log in</h3></button>
+  </div>
+<% end %>
+
+<%= render "devise/shared/links" %>
