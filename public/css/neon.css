@@ -18,6 +18,9 @@ body {
   font-size: 18px;
   font-family: "Vibur", sans-serif;
   background-color: #010a01;
+  background-image: url(/img/wall.jpeg);
+  background-size: contain;
+  background-position: center;
 }  
 
 h1, h2 {
