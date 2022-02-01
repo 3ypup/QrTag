@@ -12,7 +12,7 @@
    .neonText3 {
     color: #fff;
     text-shadow:
-      0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #d8d331, 0 0 82px #efe249, 0 0 92px #f3d04f, 0 0 102px #f9f57a, 0 0 151px #e2ba5f
+     0 0 7px #16739c, 0 0 10px #fff, 0 0 21px #0a577f, 0 0 42px #072c40, 0 0 82px #1991b9, 0 0 92px #0a3546, 0 0 102px #158eb6, 0 0 151px #076488
   }
 
 
@@ -22,7 +22,7 @@ body {
   font-size: 18px;
   font-family: "Vibur", sans-serif;
   background-color: #010a01;
-  background-image: url(/img/wall.jpeg);
+  background-image: url(/img/wall.jpg);
   background-size: contain;
   background-position: center;
 }  
@@ -48,7 +48,7 @@ h3 {
     padding: 0.4em;
     width: 200px;
     height: 70px;
-    box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #5bde45, 0 0 0.8rem #5bde45, 0 0 2.8rem #5bde45, inset 0 0 1.3rem #5bde45;
+    box-shadow: 0 0 7px #16739c, 0 0 10px #fff, 0 0 21px #0a577f, 0 0 42px #072c40, 0 0 82px #1991b9, 0 0 92px #0a3546, 0 0 102px #158eb6, 0 0 151px #076488;
 }
 
 h2 {
@@ -82,3 +82,5 @@ h3{
     animation: pulsate 0.11s ease-in-out infinite alternate; 
 
 }
+
+
