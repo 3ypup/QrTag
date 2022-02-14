@@ -15,7 +15,11 @@
      0 0 7px #16739c, 0 0 10px #fff, 0 0 21px #0a577f, 0 0 42px #072c40, 0 0 82px #1991b9, 0 0 92px #0a3546, 0 0 102px #158eb6, 0 0 151px #076488
   }
 
+ .neonText4 { color: #fff;
+text-shadow:
+     0 0 7px #9c1652, 0 0 10px #fff, 0 0 21px #7f0a0a, 0 0 42px #cb234f, 0 0 82px #b91919, 0 0 92px #460a1b, 0 0 102px #b63315, 0 0 151px #884b07
 
+ }
 /* Additional styling */
   
 body {
@@ -35,7 +39,8 @@ h1, h2 {
   border-radius: 2rem;
   padding: 0.4em;
   width: 200px;
-  box-shadow:0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #dec445, 0 0 0.8rem #e2b570, 0 0 2.8rem #dec445, inset 0 0 1.3rem #dec445
+  border: hidden;
+/*box-shadow:0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #dec445, 0 0 0.8rem #e2b570, 0 0 2.8rem #dec445, inset 0 0 1.3rem #dec445*/
 }
 
 h3 {
